@@ -1,0 +1,12 @@
+version: "3.8"
+services:
+  react-tutorial:
+    build: ./react
+    image: node:react-tutorial
+    container_name: react-tutorial
+    restart: always
+    ports:
+      - 80:80
+    volumes:
+      - ./..:/home/react-tutorial
+    tty: true
