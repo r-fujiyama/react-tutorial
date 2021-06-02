@@ -13,6 +13,7 @@
     "donjayamanne.githistory",
     "formulahendry.auto-rename-tag",
     "dbaeumer.vscode-eslint",
-    "esbenp.prettier-vscode"
+    "esbenp.prettier-vscode",
+    "msjsdiag.debugger-for-chrome"
   ]
 }
