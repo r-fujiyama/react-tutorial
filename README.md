@@ -34,7 +34,8 @@ Linux distribution は**Ubuntu 20.04 LTS**を使用する。
    - [Remote - Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)
 1. Ubuntu のシェル上で以下のコマンドを実行する。
    - `code {project directory path}`
-1. Ubuntu 上で起動した VS Code でコマンドパレットより以下を実行
+1. Ubuntu 上で起動した VS Code でコマンドパレットより以下を実行する。
+   - `Remote-Containers: Reopen in Container`
 
 # その他
 
