@@ -18,4 +18,7 @@ RUN apk update && \
     curl -o ~/.git-completion.bash https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash && \
     echo 'source ~/.git-completion.bash' >> ~/.bashrc && \
     curl -o ~/.git-prompt.sh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh && \
-    echo 'source ~/.git-prompt.sh' >> ~/.bashrc
+    echo 'source ~/.git-prompt.sh' >> ~/.bashrc && \
+    # Git
+    git config --global core.editor vim && \
+    git config --global core.commentChar ';'
