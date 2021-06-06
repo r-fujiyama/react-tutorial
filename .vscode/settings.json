@@ -15,5 +15,16 @@
   "editor.codeActionsOnSave": {
     "source.fixAll.eslint": true
   },
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "jestrunner.jestCommand": "yarn test",
+  "jestrunner.debugOptions": {
+    "program": "${workspaceRoot}/node_modules/.bin/react-scripts",
+    "args": [
+      "test",
+      "--runInBand",
+      "--no-cache",
+      "--watchAll=false"
+    ],
+    "disableOptimisticBPs": true
+  }
 }
