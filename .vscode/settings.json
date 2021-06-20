@@ -26,5 +26,11 @@
       "--watchAll=false"
     ],
     "disableOptimisticBPs": true
+  },
+  "[json]": {
+    "editor.insertSpaces": true
+  },
+  "[jsonc]": {
+    "editor.insertSpaces": true
   }
 }
