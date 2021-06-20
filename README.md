@@ -42,7 +42,7 @@ Linux ディストリビューションは**Ubuntu 20.04 LTS**を使用する。
 1. Ubuntu 上で起動した VS Code でコマンドパレットより以下を実行する。
    - `Remote-Containers: Reopen in Container`
 
-# その他
+## Yarn
 
 ### `yarn start`
 
