@@ -22,9 +22,9 @@ describe('Board', () => {
 
   test('ボタンクリック時に関数が呼び出されること', () => {
     const mockFn = jest.fn();
-    render(<Board squares={Array(9).fill('X')} onClick={mockFn} />);
+    render(<Board squares={Array(9).fill(null)} onClick={mockFn} />);
 
-    const buttons = screen.getAllByText('X');
+    const buttons = screen.getAllByRole('button');
     expect(buttons).toHaveLength(9);
 
     buttons.map((button) => {
