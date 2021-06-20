@@ -1,14 +1,19 @@
 import React from 'react';
 import { History } from './type';
 
-const Moves = (history: History[], jumpTo: (i: number) => void): JSX.Element => {
+interface MovesProps {
+  history: History[];
+  onClick: (i: number) => void;
+}
+
+const Moves = (props: MovesProps): JSX.Element => {
   return (
     <ol>
-      {history.map((_, move): JSX.Element => {
+      {props.history.map((_, move): JSX.Element => {
         const desc = move ? 'Go to move #' + move : 'Go to game start';
         return (
           <li key={move}>
-            <button onClick={() => jumpTo(move)}>{desc}</button>
+            <button onClick={() => props.onClick(move)}>{desc}</button>
           </li>
         );
       })}

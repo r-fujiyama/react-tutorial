@@ -44,7 +44,7 @@ const Game = (): JSX.Element => {
       </div>
       <div className="game-info">
         <div>{status}</div>
-        <ol>{Moves(history, jumpTo)}</ol>
+        <Moves history={history} onClick={jumpTo} />
       </div>
     </div>
   );
