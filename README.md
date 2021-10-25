@@ -11,7 +11,7 @@ Linux ディストリビューションは**Ubuntu 20.04 LTS**を使用する。
 1. ユーザの登録が求められるので登録を行う。
 1. パッケージを最新化するため、以下の手順を実施する。
    1. `sudo apt update`
-   1. `sudo apt dist-upgrade`
+   1. `sudo apt upgrade`
    1. `sudo apt autoremove`
 1. Git のブランチ名をプロンプトに表示させるため、以下の手順を実施する。
    1. `curl -o ~/.git-prompt.sh https://raw.githubusercontent.com/git/git/master/contrib/completion/git-prompt.sh`
